@@ -84,6 +84,8 @@ MIT License. See LICENSE for details.
 
 Original code by FemboyNex.
 
+LovenseConnect API code by MistressPlague.
+
 What a time to be alive.
 
 

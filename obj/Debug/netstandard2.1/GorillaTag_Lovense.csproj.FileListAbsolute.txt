@@ -178,3 +178,4 @@ C:\Users\Nex\source\repos\GorillaTag_Lovense\GorillaTag_Lovense\obj\Debug\netsta
 C:\Users\Nex\source\repos\GorillaTag_Lovense\GorillaTag_Lovense\obj\Debug\netstandard2.1\GorillaT.CA2B40A5.Up2Date
 C:\Users\Nex\source\repos\GorillaTag_Lovense\GorillaTag_Lovense\obj\Debug\netstandard2.1\GorillaTag_Lovense.dll
 C:\Users\Nex\source\repos\GorillaTag_Lovense\GorillaTag_Lovense\obj\Debug\netstandard2.1\GorillaTag_Lovense.pdb
+C:\Users\Nex\source\repos\GorillaTag_Lovense\GorillaTag_Lovense\obj\Debug\netstandard2.1\GorillaTag_Lovense.sourcelink.json
