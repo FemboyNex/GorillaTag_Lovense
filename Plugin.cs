@@ -43,11 +43,11 @@ namespace GorillaTag_Lovense
             }
         }
 
-        public static void Vibrate(int amount)
+        public static void Vibrate(int amount, int duration)
         {
             if (!string.IsNullOrEmpty(toyID))
             {
-                _ = Main.VibrateToy("http://127.0.0.1:30010", toyID, amount);
+                _ = Main.VibrateToyDuration("http://127.0.0.1:30010", toyID, amount, duration);
             }
         }
 
@@ -79,7 +79,7 @@ namespace GorillaTag_Lovense
             public static void Postfix(bool forLeftHand, bool __result)
             {
                 if (!__result) return;
-                Vibrate(5);
+                Vibrate(5, 300);
             }
         }
     }

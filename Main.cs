@@ -177,6 +177,15 @@ namespace LovenseConnectAPI // All credits go to https://github.com/MistressPlag
         /// <param name="amount">The Vibration Intensity.</param>
         /// <param name="IgnoreDuplicateRequests">Whether To Ignore Duplicate Requests Or Not.</param>
         /// <returns></returns>
+        /// 
+        public static async Task<bool> VibrateToyDuration(string url, string id, int amount, int duration)
+        {
+            await VibrateToy(url, id, amount);
+            await Task.Delay(duration);
+            await VibrateToy(url, id, 0);
+            return true;
+        }
+
         public static async Task<bool> VibrateToy(string url, string id, int amount, bool IgnoreDuplicateRequests = false)
         {
             try
