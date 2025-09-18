@@ -51,14 +51,14 @@ namespace GorillaTag_Lovense
             }
         }
 
-        // not so sure about this part, ill make it work later when i figure it out
-        /*[HarmonyPatch(typeof(GorillaTagger), "UpdateColor", new Type[] { typeof(float), typeof(float), typeof(float) })]
+        // not sure if this works
+        [HarmonyPatch(typeof(GorillaTagger), "UpdateColor", new Type[] { typeof(float), typeof(float), typeof(float) })]
         public class lovense_UpdateColor
         {
             [HarmonyPostfix]
             public static void Postfix(GorillaTagger __instance)
             {
-
+                Vibrate(10, 10000);
             }
         }
 
@@ -68,9 +68,9 @@ namespace GorillaTag_Lovense
             [HarmonyPostfix]
             public static void Postfix(GorillaTagger __instance, GorillaTagger.StatusEffect newStatus, float duration)
             {
-
+                Vibrate(10, 10000);
             }
-        }*/
+        }
 
         [HarmonyPatch(typeof(GorillaLocomotion.GTPlayer), "IsHandTouching", new Type[] { typeof(bool) })]
         public class lovense_HandTap
