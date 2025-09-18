@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GorillaTag_Lovense")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bee1899f4ffdf4a4e1638844d7c288b2b9b49a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f0994d125c6386b56876522f5db1d8c304cf36d")]
 [assembly: System.Reflection.AssemblyProductAttribute("GorillaTag_Lovense")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GorillaTag_Lovense")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
